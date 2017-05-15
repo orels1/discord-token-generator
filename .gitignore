@@ -1,0 +1,6 @@
+design
+node_modules
+.git
+.idea
+.atom
+*.log
