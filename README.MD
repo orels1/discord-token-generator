@@ -1,5 +1,7 @@
+![s](https://cdn-images-1.medium.com/max/800/1*64GSosmMFaKyBM5Dn_3aeQ.png)
+
 # Discord Token Generator
->An example app for my discord oauth2 tutorial on my medium blog. Don't forget to check it out!
+>An example app for my discord oauth2 tutorial on my medium blog. [Don't forget to check it out!](https://medium.com/@orels1/using-discord-oauth2-a-simple-guide-and-an-example-nodejs-app-71a9e032770)
 
 ## Run
 
