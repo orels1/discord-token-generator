@@ -26,11 +26,6 @@ app.use((err, req, res, next) => {
         status: 'ERROR',
         error: err.message,
       });
-    case 'NotFound':
-      return res.status(404).send({
-        status: 'ERROR',
-        error: err.message,
-      });
     default:
       return res.status(500).send({
         status: 'ERROR',
