@@ -2,12 +2,12 @@
  * Created by orel- on 15/May/17.
  */
 
-const epxress = require('express');
+const express = require('express');
 const fetch = require('node-fetch');
 const btoa = require('btoa');
 const { catchAsync } = require('../utils');
 
-const router = epxress.Router();
+const router = express.Router();
 
 const CLIENT_ID = process.env.CLIENT_ID;
 const CLIENT_SECRET = process.env.CLIENT_SECRET;
