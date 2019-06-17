@@ -14,7 +14,7 @@ const CLIENT_SECRET = process.env.CLIENT_SECRET;
 const redirect = encodeURIComponent('http://localhost:50451/api/discord/callback');
 
 router.get('/login', (req, res) => {
-  res.redirect(`https://discordapp.com/oauth2/authorize?client_id=${CLIENT_ID}&scope=identify&response_type=code&redirect_uri=${redirect}`);
+  res.redirect(`https://discordapp.com/api/oauth2/authorize?client_id=${CLIENT_ID}&scope=identify&response_type=code&redirect_uri=${redirect}`);
 });
 
 router.get('/callback', catchAsync(async (req, res) => {
